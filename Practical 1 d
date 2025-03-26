@@ -1,0 +1,57 @@
+Practical 1(D):
+ Calculating Line, Length and Statistics
+
+
+Steps:
+1. Go to layers → Add Layer → Add Vector Layer.
+
+
+2. Click on the three dots and add two vector files: IND_rails.shp and IND_adm0.shp.
+
+
+3. Right-click on IND_adm0 file and select any outline style from the given options. Press "OK".
+
+
+4. Right-click on IND_rails file → Click on "Open Attribute Table" (a new window will open).
+
+
+Click on the toggle button (yellow pencil) and then click on the "Calculator" button.
+
+
+5. A new window will open:
+
+
+Set the output field as "Track_len", field type to "Decimal Number".
+
+
+From the function list, search $length or go to Geometry → Select $length.
+
+
+6. Set Expression as = $length / 1000 and press "OK".
+
+
+7. A new column is added to the attribute table with values representing the length of the track in kilometers (km).
+
+
+8. Close the attribute table window.
+
+
+9. For calculating the total length of railway tracks in India:
+
+
+Select Vector → Analysis Tools → Basic Statistics for Fields.
+
+
+10. For input layer → IND_rails file:
+
+
+For the field to calculate statistics on, select Track_len field.
+
+
+For statistics, click on the three dots → select Save to file → Give a name to the file.
+
+
+Click on Run.
+
+
+11. A new window will open, displaying the result of your practical.
