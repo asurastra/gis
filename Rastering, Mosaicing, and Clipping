@@ -1,0 +1,54 @@
+Practical No. 2(C)
+: Rastering, Mosaicing, and Clipping
+
+
+A mosaic is a combination of multiple raster images into one.
+
+
+In GIS, a single raster dataset can be created from multiple raster datasets by mosaicing them together.
+
+
+---------------------------------------------
+
+
+Steps:
+1. Go to Raster → Add Layer → Add Raster Layer.
+
+
+2. Click on the three dots and select all master images of India. Click OK and then click Add.
+
+
+3. Go to Raster → Miscellaneous → Merge.
+
+
+4. An emerge dialogue window will open. Click on the three dots, select input layers, and then click on Run.
+
+
+5. A new layer will be created in the layers tab. Deselect the layers of master images.
+
+
+6. Now, we need to add the outline of the India map.
+
+
+7. For that, Go to Layers → Add Layer → Select adm0 file.
+
+
+8. From the Layer tab → Utilize the transparency for the map.
+
+
+9. Go to Raster Menu → Click on Extraction → Clip Raster by Mask Layer.
+
+
+A new clipped raster will be created.
+
+
+The mosaiced file will be clipped.
+
+
+Select the adm0 file as the input layer.
+
+
+10. Save the output layer by clicking on the three dots and selecting Save to file.
+
+
+11. Easily toggle one raster over another
