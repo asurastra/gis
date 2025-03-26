@@ -1,0 +1,31 @@
+Practical 1(A) & (B):
+Open QGIS application.
+Click on new project
+---------------------------------------------
+Depending on the question given, create the layers as follows:
+
+
+Step 1: Click on layer --> Create layer ---> New shape file. A new window will be opened.
+
+
+Step 2: Click on 3 dots and create layer in your own folder. Give name to the layer.
+
+
+Step 3: Select geometry type (point, line, polygon).
+
+
+Step 4: Select WGS has positioning system
+(WGS stands for World geodetic system launched in 1984.)
+
+
+Step 5: add a new field named "NAME" then click "Add to Field List". Click on OK
+(Please Note: ID is by default list selected. Do not change it.)
+
+
+Follow this five steps and for creating all the other layers as well.
+
+
+---- For creating shapes: ----
+(a). Select yellow toggle button.
+(b). Select add line/polygon/point feature.
+(c). Then start drawing your shapes and create your own map.
