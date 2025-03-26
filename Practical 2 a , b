@@ -1,0 +1,63 @@
+Practical 2(A) and (B)
+
+Open QGIS application.
+Click on new project
+-------------------------------
+Step 1: Go to Layer ---> Add Layer ---> Add Raster Layer
+
+
+Step 2: Add "90-60" and "00-60" files (first on-screen .asc files only).
+Ensure that CRS options 84 has been selected.
+
+
+Step 3: Click on "90-60" files ---> Go to Properties ---> Symbolology ---> Select single band grey as single band pseudo colour ---> Select bandwidth 0-240 ---> select colour ramp "Yellow-Orange-Red"
+
+
+Step 4: repeat the same steps as for "00-60"
+In both the file's properties the interpolation will be of linear type.
+
+
+(*Please Note: "90-60" files stands for year 1990 and "00-60" files for year 2000)
+
+
+Now styling for both the files or layers is being provided.
+The calculation part is to be performed
+
+
+---------------------------------------------
+
+
+For calculation part, Go to Raster option in the Menu
+
+
+Step 5: Go to Raster ---> Raster Calculator. New tab will be opened.
+
+
+Step 6: Subtract "00-60" file with "90-60" file (i.e year 2000 - year 1990 file).
+
+
+Step 7: Raster Calculation ---> Expression / Equation —
+"glds00ag60@1 - glds90ag60@1"
+
+
+Step 8: Go and click on the 3 dots which is on the right hand side (RHS) of the tab.
+Give the name to the output file and then Click OK.
+
+
+A new layer will be created
+
+
+Step 9: Click on the new layer created ---> click on Symbolology ---> select single band psudo colour ---> now select interpolation is Discrete ---> select colour ramp "Orange-Yellow-Red" ---> Bandwidth range from -2000 to 6000
+
+
+Step 10: Now change the values and give different colours and labels.
+
+
+There are 4 different values:
+
+
+Values <=  |  Colours |  Label
+-20000    |    Black   |  No data
+-10             |   Red.     |  Negative
+10              |   Yellow  |   Neutral 
+6000        |    Blue     |  Positive
